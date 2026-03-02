@@ -47,7 +47,6 @@ async def simulate_artificial_user(context: ContextTypes.DEFAULT_TYPE):
     sent_msg = await bot.send_message(
         chat_id=TARGET_CHAT_ID,
         text=user_message,
-        parse_mode=ParseMode.MARKDOWN
     )
 
     # 3. Build the response template
