@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # ---------- Configuration ----------
 BOT_TOKEN = "8388397874:AAFwbQDT07EQcb_r6_ekJfmcrtpz7Q6eSrE"                # Replace with your token or use env var
-TARGET_CHAT_ID = -5167288209              # Replace with your group/channel ID (negative for groups)
+TARGET_CHAT_ID = -3891918957              # Replace with your group/channel ID (negative for groups)
 # -----------------------------------
 
 # Predefined artificial users (username, display name, profile picture URL)
