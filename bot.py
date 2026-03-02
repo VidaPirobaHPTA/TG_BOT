@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 
 # ---------- Configuration ----------
 BOT_TOKEN = "8388397874:AAFwbQDT07EQcb_r6_ekJfmcrtpz7Q6eSrE"
-TARGET_CHAT_ID = -3891918957
+TARGET_CHAT_ID = -1003609356072
 # -----------------------------------
 
 # Predefined artificial users (only usernames and display names now – no pictures)
