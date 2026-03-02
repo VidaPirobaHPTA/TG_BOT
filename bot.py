@@ -17,9 +17,9 @@ TARGET_CHAT_ID = -5167288209              # Replace with your group/channel ID (
 
 # Predefined artificial users (username, display name, profile picture URL)
 ARTIFICIAL_USERS = [
-    {"username": "alice_smith", "name": "Alice Smith", "pic_url": "https://example.com/pics/alice.jpg"},
-    {"username": "bob_jones",   "name": "Bob Jones",   "pic_url": "https://example.com/pics/bob.jpg"},
-    {"username": "charlie_b",    "name": "Charlie B",   "pic_url": "https://example.com/pics/charlie.jpg"},
+    {"username": "alice_smith", "name": "Alice Smith", "pic_url": "https://i.imgur.com/FeFylNL.jpeg"},
+    {"username": "bob_jones",   "name": "Bob Jones",   "pic_url": "https://i.imgur.com/HxT7dHi.jpeg"},
+    {"username": "charlie_b",    "name": "Charlie B",   "pic_url": "https://i.imgur.com/r8BmsKE.jpeg"},
     # Add more users as needed
 ]
 
@@ -50,7 +50,6 @@ async def simulate_artificial_user(context: ContextTypes.DEFAULT_TYPE):
         chat_id=TARGET_CHAT_ID,
         photo=user["pic_url"],
         caption=caption,
-        parse_mode=ParseMode.MARKDOWN
     )
 
     # 3. Build the response template
